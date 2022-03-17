@@ -23,13 +23,13 @@ const HowItWorks = (props) => (
   <div>
     {/* SEO */}
     <Helmet>
-      <title>How it works? - Crate</title>
+      <title>How To Buy? - Crate</title>
     </Helmet>
 
     {/* Top title bar */}
     <Grid style={{ backgroundColor: grey }}>
       <GridCell style={{ padding: '2em', textAlign: 'center' }}>
-        <H3 font="secondary">How it works</H3>
+        <H3 font="secondary">How To Buy</H3>
 
         <p style={{ marginTop: '1em', color: grey2 }}>Just 3 easy steps to subscribe and receive your monthly
           subscription
@@ -44,7 +44,7 @@ const HowItWorks = (props) => (
 
         <H4 style={{ marginTop: '0.5em', textTransform: 'uppercase' }}>Subscribe to your crate</H4>
 
-        <p style={{ marginTop: '0.5em', color: grey3 }}>Choose one or multiple crates as per your need.</p>
+        <p style={{ marginTop: '0.5em', color: grey3 }}>Choose one or multiple Item as per your need.</p>
       </GridCell>
 
       <GridCell style={{ background: `url('${ APP_URL }/images/stock/how-it-works/1.jpg') center top no-repeat` }}/>
@@ -59,7 +59,7 @@ const HowItWorks = (props) => (
 
         <H4 style={{ marginTop: '0.5em', textTransform: 'uppercase' }}>Receive a Fix Delivery</H4>
 
-        <p style={{ marginTop: '0.5em', color: grey3 }}>Get 3 to 5 pieces of clothing or accessories delivered to your door.</p>
+        <p style={{ marginTop: '0.5em', color: grey3 }}>Get 1 to 5 pieces of Item delivered Code to you.</p>
       </GridCell>
     </Grid>
 
