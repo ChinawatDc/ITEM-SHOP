@@ -1,7 +1,7 @@
 {
   "name": "crate",
   "version": "1.0.0",
-  "description": "![Crate](https://raw.githubusercontent.com/atulmy/atulmy.github.io/master/images/crate/hero-with-link.png)",
+  "description": "https://github.com/puem2639/ITEM-Master",
   "scripts": {
     "setup": "npm run setup:local && npm run setup:all",
     "setup:local": "npm install",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atulmy/crate.git"
+    "url": "git+https://github.com/puem2639/ITEM-Master.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/atulmy/crate/issues"
+    "url": "https://github.com/puem2639/ITEM-Master"
   },
-  "homepage": "https://github.com/atulmy/crate#readme",
+  "homepage": "https://github.com/puem2639/ITEM-Master",
   "devDependencies": {
     "@babel/core": "^7.17.7",
     "@babel/node": "^7.16.8",
