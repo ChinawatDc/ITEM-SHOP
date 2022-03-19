@@ -29,11 +29,9 @@ const HowItWorks = (props) => (
     {/* Top title bar */}
     <Grid style={{ backgroundColor: grey }}>
       <GridCell style={{ padding: '2em', textAlign: 'center' }}>
-        <H3 font="secondary">How To Buy</H3>
+        <H3 font="secondary">How To Buy วิธีการสั่งซื้อ</H3>
 
-        <p style={{ marginTop: '1em', color: grey2 }}>Just 3 easy steps to subscribe and receive your monthly
-          subscription
-          of trendy clothes and accessories</p>
+        <p style={{ marginTop: '1em', color: grey2 }}>เพียง 3 ขั้นตอนง่ายๆ ในการสั่งซื้อและการสมัครสมาชิก</p>
       </GridCell>
     </Grid>
 
@@ -42,9 +40,9 @@ const HowItWorks = (props) => (
       <GridCell justifyCenter={true} style={{ textAlign: 'center', padding: '8em 0em' }}>
         <Icon size={4} style={{ color: grey3, textShadow: textLevel1 }}>looks_one</Icon>
 
-        <H4 style={{ marginTop: '0.5em', textTransform: 'uppercase' }}>Subscribe to your crate</H4>
+        <H4 style={{ marginTop: '0.5em', textTransform: 'uppercase' }}>สมัครสมาชิก</H4>
 
-        <p style={{ marginTop: '0.5em', color: grey3 }}>Choose one or multiple Item as per your need.</p>
+        <p style={{ marginTop: '0.5em', color: grey3 }}>เลือกหนึ่งหรือหลายรายการตามความต้องการ</p>
       </GridCell>
 
       <GridCell style={{ background: `url('${ APP_URL }/images/stock/how-it-works/1.jpg') center top no-repeat` }}/>
@@ -57,9 +55,9 @@ const HowItWorks = (props) => (
       <GridCell justifyCenter={true} style={{ textAlign: 'center', padding: '8em 0em' }}>
         <Icon size={4} style={{ color: grey3, textShadow: textLevel1 }}>looks_two</Icon>
 
-        <H4 style={{ marginTop: '0.5em', textTransform: 'uppercase' }}>Receive a Fix Delivery</H4>
+        <H4 style={{ marginTop: '0.5em', textTransform: 'uppercase' }}>สั่งซื้อและการจัดส่ง</H4>
 
-        <p style={{ marginTop: '0.5em', color: grey3 }}>Get 1 to 5 pieces of Item delivered Code to you.</p>
+        <p style={{ marginTop: '0.5em', color: grey3 }}>รับรหัสจัดส่งรายการ</p>
       </GridCell>
     </Grid>
 
@@ -68,9 +66,9 @@ const HowItWorks = (props) => (
       <GridCell justifyCenter={true} style={{ textAlign: 'center', padding: '8em 0em' }}>
         <Icon size={4} style={{ color: grey3, textShadow: textLevel1 }}>looks_3</Icon>
 
-        <H4 style={{ marginTop: '0.5em', textTransform: 'uppercase' }}>Keep what you want</H4>
+        <H4 style={{ marginTop: '0.5em', textTransform: 'uppercase' }}>นำรหัสไปใช้</H4>
 
-        <p style={{ marginTop: '0.5em', color: grey3 }}>Only pay for what you keep. Returns are easy and free.</p>
+        <p style={{ marginTop: '0.5em', color: grey3 }}>นำรหัสไปใช้ตามแพลตฟอร์มที่รับรหัส</p>
       </GridCell>
 
       <GridCell style={{ background: `url('${ APP_URL }/images/stock/how-it-works/3.jpg') center top no-repeat` }}/>
@@ -85,7 +83,7 @@ const HowItWorks = (props) => (
                 <Button theme="primary">Subscribe <Icon size={1.2} style={{ color: white }}>navigate_next</Icon></Button>
               </Link>
             : <Link to={userRoutes.signup.path}>
-                <Button theme="primary">Start <Icon size={1.2} style={{ color: white }}>navigate_next</Icon></Button>
+                <Button theme="primary">เริ่มกันเลย <Icon size={1.2} style={{ color: white }}>navigate_next</Icon></Button>
               </Link>
         }
       </GridCell>
