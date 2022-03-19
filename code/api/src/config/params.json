@@ -3,11 +3,11 @@
     "types": {
       "cloth": {
         "id": 1,
-        "name": "Cloth"
+        "name": "GAME"
       },
       "accessory": {
         "id": 2,
-        "name": "Accessories"
+        "name": "ITEM"
       }
     }
   },
@@ -19,11 +19,11 @@
     "gender": {
       "male": {
         "id": 1,
-        "name": "Male"
+        "name": "ONLINE"
       },
       "female": {
         "id": 2,
-        "name": "Female"
+        "name": "OFFLINE"
       }
     }
   }

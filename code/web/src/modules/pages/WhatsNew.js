@@ -48,8 +48,7 @@ class WhatsNew extends PureComponent {
           <GridCell style={{ padding: '2em', textAlign: 'center' }}>
             <H3 font="secondary">What's new</H3>
 
-            <p style={{ marginTop: '1em', color: grey2 }}>Watch this space to keep updated with latest clothes and
-              accessories we add to your crates.</p>
+            <p style={{ marginTop: '1em', color: grey2 }}>Item มาใหม่ของรายเดือนนี้</p>
           </GridCell>
         </Grid>
 
@@ -64,14 +63,14 @@ class WhatsNew extends PureComponent {
                       <ProductItem product={product}/>
                     </GridCell>
                   ))
-                : <EmptyMessage message="No products to show" />
+                : <EmptyMessage message="ยังไม่มีสินค้า" />
           }
         </Grid>
 
         {/* Bottom call to action bar */}
         <Grid style={{ backgroundColor: grey }}>
           <GridCell style={{ padding: '3em', textAlign: 'center' }}>
-            <p style={{ marginBottom: '1em', color: grey2 }}>Like what you see?</p>
+            <p style={{ marginBottom: '1em', color: grey2 }}>สนใจร่วมสมัครสมาชิกเพื่อสั่งสินค้า</p>
 
             {
               this.props.user.isAuthenticated
@@ -81,7 +80,7 @@ class WhatsNew extends PureComponent {
                     </Button>
                   </Link>
                 : <Link to={userRoutes.signup.path}>
-                    <Button theme="primary">Start <Icon size={1.2} style={{ color: white }}>navigate_next</Icon></Button>
+                    <Button theme="primary">เริ่มกันเลย <Icon size={1.2} style={{ color: white }}>navigate_next</Icon></Button>
                   </Link>
             }
           </GridCell>

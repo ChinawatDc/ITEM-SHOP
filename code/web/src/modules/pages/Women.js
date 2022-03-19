@@ -50,11 +50,11 @@ const Women = (props) => (
 
     {/* Right Content */}
     <GridCell style={{ textAlign: 'center' }}>
-      <H2 font="secondary">Fortnite - iKONIK Skin key</H2>
+      <H2 font="secondary">สกินตัวละคร สกินปืน</H2>
 
       <H5 style={{ marginTop: '0.5em' }}>
       
-                  Originally, the iKONIK Fortnite skin was released as a promotional cosmetic item available only to those who purchased the Samsung Galaxy S10, S10+, or S10e mobile devices. Luckily, Eneba store offers you the chance to buy Fortnite iKONIK skin Epic Games key separately and redeem the code on the PC platform! It’s a great way to both save and expand your in-game Locker with one of the most recognizable Fortnite skins out there!
+                สกินตัวละครสุดเท่มาใหม่พร้อม สกินปืนแบบแพ็ค  
       </H5>
 
       {/* Call to action */}
@@ -64,7 +64,7 @@ const Women = (props) => (
               <Button theme="secondary" style={{ marginTop: '1em' }}>Get Subscription</Button>
             </Link>
           : <Link to={userRoutes.signup.path}>
-              <Button theme="secondary" style={{ marginTop: '1em' }}>29.99$</Button>
+              <Button theme="secondary" style={{ marginTop: '1em' }}>สั่งซื้อ</Button>
             </Link>
       }
     </GridCell>

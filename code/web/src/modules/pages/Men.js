@@ -53,7 +53,7 @@ const Men = (props) => (
       <H2 font="secondary">Game</H2>
 
       <H5 style={{ marginTop: '0.5em' }}>
-        No problem, through the middle, payment in all channels, safe, all impressive services..
+          ไม่มีปัญหา ผ่านคนกลาง จ่ายทุกช่องทาง ปลอดภัย บริการประทับใจ..
       </H5>
 
       {/* Call to action */}
