@@ -46,7 +46,7 @@ class WhatsNew extends PureComponent {
         {/* Top title bar */}
         <Grid style={{ backgroundColor: grey }}>
           <GridCell style={{ padding: '2em', textAlign: 'center' }}>
-            <H3 font="secondary">What's new</H3>
+            <H3 font="secondary">Item มาใหม่</H3>
 
             <p style={{ marginTop: '1em', color: grey2 }}>Item มาใหม่ของรายเดือนนี้</p>
           </GridCell>
