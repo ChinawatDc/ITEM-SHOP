@@ -55,11 +55,11 @@ class Onboarding extends PureComponent {
       <Grid alignCenter={true} style={{ height: '100%', textAlign: 'center', color: white }}>
         {/* Left - Headline and info */}
         <GridCell>
-          <H1 font="secondary" style={{ textShadow: textLevel1 }}>Welcome to Crate</H1>
+          <H1 font="secondary" style={{ textShadow: textLevel1 }}>Welcome to ITEM MASTER</H1>
 
-          <H6 style={{ marginTop: '0.5em' }}>Your monthly subscription of trendy <br/> clothes and accessories</H6>
+          <H6 style={{ marginTop: '0.5em' }}>เรามีไอเทมที่คุณตามหา<br/> พร้อมบินการ 24 ชั่วโมง</H6>
 
-          <Button theme="primary" style={{ marginTop: '1.5em' }} onClick={this.nextStep}>Next</Button>
+          <Button theme="primary" style={{ marginTop: '1.5em' }} onClick={this.nextStep}>ต่อไป</Button>
         </GridCell>
 
         {/* Right - Image */}
@@ -77,11 +77,11 @@ class Onboarding extends PureComponent {
 
         {/* Right - Headline and info */}
         <GridCell>
-          <H1 font="secondary" style={{ textShadow: textLevel1 }}>For Men</H1>
+          <H1 font="secondary" style={{ textShadow: textLevel1 }}>GAME</H1>
 
-          <H6 style={{ marginTop: '0.5em' }}>Your monthly subscription of trendy <br/> clothes and accessories</H6>
+          <H6 style={{ marginTop: '0.5em' }}>เรามีไอเทมที่คุณตามหา <br/> พร้อมบินการ 24 ชั่วโมง</H6>
 
-          <Button theme="primary" style={{ marginTop: '1.5em' }} onClick={this.nextStep}>Next</Button>
+          <Button theme="primary" style={{ marginTop: '1.5em' }} onClick={this.nextStep}>ต่อไป</Button>
         </GridCell>
       </Grid>,
 
@@ -89,11 +89,11 @@ class Onboarding extends PureComponent {
       <Grid alignCenter={true} style={{ height: '100%', textAlign: 'center', color: white }}>
         {/* Left - Headline and info */}
         <GridCell>
-          <H1 font="secondary" style={{ textShadow: textLevel1 }}>For Women</H1>
+          <H1 font="secondary" style={{ textShadow: textLevel1 }}>ITEM</H1>
 
-          <H6 style={{ marginTop: '0.5em' }}>Your monthly subscription of trendy <br/> clothes and accessories</H6>
+          <H6 style={{ marginTop: '0.5em' }}>เรามีไอเทมที่คุณตามหา <br/> พร้อมบินการ 24 ชั่วโมง </H6>
 
-          <Button theme="primary" style={{ marginTop: '1.5em' }} onClick={this.nextStep}>Next</Button>
+          <Button theme="primary" style={{ marginTop: '1.5em' }} onClick={this.nextStep}>ต่อไป</Button>
         </GridCell>
 
         {/* Right - Image */}
@@ -106,11 +106,11 @@ class Onboarding extends PureComponent {
       <Grid alignCenter={true} style={{ height: '100%', textAlign: 'center', color: white }}>
         {/* Center - Headline and info */}
         <GridCell>
-          <H1 font="secondary" style={{ textShadow: textLevel1 }}>Fix me up</H1>
+          <H1 font="secondary" style={{ textShadow: textLevel1 }}>เข้าสู่หน้าร้านค้า</H1>
 
-          <H6 style={{ marginTop: '0.5em' }}>Subscribe to your crate!</H6>
+          <H6 style={{ marginTop: '0.5em' }}>สนใจร่วมสมัครสมาชิก</H6>
 
-          <Button theme="primary" style={{ marginTop: '1.5em' }} onClick={this.close}>Start</Button>
+          <Button theme="primary" style={{ marginTop: '1.5em' }} onClick={this.close}>มาเริ่มกันเลย</Button>
         </GridCell>
       </Grid>
     ]
