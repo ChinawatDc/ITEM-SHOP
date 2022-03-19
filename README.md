@@ -65,6 +65,3 @@
 - Development
   - Run API `cd api` and `npm start`, browse GraphiQL at http://localhost:8000/
   - Run Webapp `cd web` and `npm start`, browse webapp at http://localhost:3000/
-- Production
-  - Run API `cd api` and `npm run start:prod`, creates an optimized build in `build` directory and runs the server
-  - Run Webapp `cd web` and `npm run start:prod`, creates an optimized build in `build` directory and runs the server
