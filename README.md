@@ -42,7 +42,7 @@
 ## Setup and Running
 - Prerequisites
   - Node
-  - MySQL (or Postgres / Sqlite / MSSQL)
+  - MySQL (or xampp / heidisql )
 - Clone repo `git clone git@github.com:atulmy/crate.git crate`
 - Switch to `code` directory `cd code`
 - Configurations
