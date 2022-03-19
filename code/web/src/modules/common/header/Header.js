@@ -42,7 +42,7 @@ const Header = (props) => {
 
             <MenuItem to={home.women.path}>ITEM</MenuItem>
 
-            <MenuItem to={home.howItWorks.path}>How to buy&sell</MenuItem>
+            <MenuItem to={home.howItWorks.path}>How to buy</MenuItem>
 
             <MenuItem to={home.whatsNew.path}>What's New</MenuItem>
           </Menu>
