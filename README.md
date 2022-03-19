@@ -3,7 +3,6 @@
 #### เว็ปซื้อขายเกม-ไอเทมต่างๆ
 - **API** สร้างด้วย Node, GraphQL, Express, Sequelize (MySQL) และ JWT Auth
 - **WebApp** สร้างด้วย React และ Redux พร้อมกับ Server Side Rendering (SSR)
-- เขียนใน ES6+ โดยใช้ Babel + Webpack
 
 ## Core Structure
     code
