@@ -1,4 +1,4 @@
-# Crate 
+# ITEM GAME
 
 #### Get monthly subscription of trendy clothes and accessories.
 - **API** built with Node, GraphQL, Express, Sequelize (MySQL) and JWT Auth
