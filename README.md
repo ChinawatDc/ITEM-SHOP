@@ -1,11 +1,9 @@
 # ITEM GAME 🎮🕹
 
-#### Get monthly subscription of trendy clothes and accessories.
-- **API** built with Node, GraphQL, Express, Sequelize (MySQL) and JWT Auth
-- **WebApp** built with React and Redux along with Server Side Rendering (SSR) / SEO friendly
-- **Mobile** (Android and iOS) Native App build with React Native
-- Written in ES6+ using Babel + Webpack
-- Designed using Adobe Experience Design. Preview it [here](https://xd.adobe.com/view/a662a49f-57e7-4ffd-91bd-080b150b0317/).
+#### เว็ปซื้อขายเกม-ไอเทมต่างๆ
+- **API** สร้างด้วย Node, GraphQL, Express, Sequelize (MySQL) และ JWT Auth
+- **WebApp** สร้างด้วย React และ Redux พร้อมกับ Server Side Rendering (SSR)
+- เขียนใน ES6+ โดยใช้ Babel + Webpack
 
 ## Core Structure
     code
@@ -39,20 +37,20 @@
       └── README.md
 
 
-## Setup and Running
-- Prerequisites
+## ตั้งค่าและใช้งาน
+- ข้อกำหนดเบื้องต้น
   - Node
-  - MySQL (or xampp / heidisql )
-- Clone repo `git clone git@github.com:atulmy/crate.git crate`
-- Switch to `code` directory `cd code`
-- Configurations
-  - Modify `/api/src/config/database.json` for database credentials
-  - Modify `/api/.env` for PORT (optional)
-  - Modify `/web/.env` for PORT / API URL (optional)
-  - Modify `/mobile/src/setup/config.json` for API URL (tip: use `ifconfig` to get your local IP address)
-- Setup
-  - API: Install packages and database setup (migrations and seed) `cd api` and `npm run setup`
-  - Webapp: Install packages `cd web` and `npm install`
-- Development
-  - Run API `cd api` and `npm start`, browse GraphiQL at http://localhost:8000/
-  - Run Webapp `cd web` and `npm start`, browse webapp at http://localhost:3000/
+  - MySQL
+- โคลน `git clone https://github.com/puem2639/ITEM-Master`
+- เปลี่ยนเป็น `code` `cd code`
+- การกำหนดค่า
+  - Modify `/api/src/config/database.json` สำหรับข้อมูลรับรองฐานข้อมูล
+  - Modify `/api/.env` สำหรับ PORT
+  - Modify `/web/.env` สำหรับ PORT / API URL
+  - Modify `/mobile/src/setup/config.json` สำหรับ API URL (tip: ใช้ `ifconfig` เพื่อรับที่อยู่ IP address)
+- ติดตั้ง
+  - API: ติดตั้ง packages และ database setup `cd api` และ `npm run setup`
+  - Webapp: ติดตั้ง packages `cd web` และ `npm install`
+- การพัฒนา
+  - Run API `cd api` และ `npm start`,เรียกดู GraphiQL ที่ http://localhost:8000/
+  - Run Webapp `cd web` และ `npm start`,เรียกดู webapp ที่ http://localhost:3000/
