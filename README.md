@@ -40,7 +40,7 @@
 ## ตั้งค่าและใช้งาน
 - ข้อกำหนดเบื้องต้น
   - Node
-  - MySQL
+  - MySQL (or xampp / heidisql )
 - โคลน `git clone https://github.com/puem2639/ITEM-Master`
 - เปลี่ยนเป็น `code` `cd code`
 - การกำหนดค่า
