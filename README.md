@@ -23,15 +23,6 @@
       │   │
       │   └── package.json
       │
-      ├── mobile (Android, iOS)
-      │   ├── assets
-      │   ├── src
-      │   │   ├── modules
-      │   │   ├── setup
-      │   │   ├── ui
-      │   │   └── index.js
-      │   │
-      │   └── package.json
       │
       ├── web (example.com)
       │   ├── public
