@@ -53,3 +53,9 @@
 - การพัฒนา
   - Run API `cd api` และ `npm start`,เรียกดู GraphiQL ที่ http://localhost:8000/
   - Run Webapp `cd web` และ `npm start`,เรียกดู webapp ที่ http://localhost:3000/
+
+##สมาชิก
+นายชินวัตร ดาวชัย (Code Developer Lv3)
+นายนันทภูมิ สดรัมย์ (Code Developer Lv2)
+นายฐิติกร จันตา (Code Developer Lv1)
+นายเกียรติสุรักษ์ วงศ์ชัย (Code Developer Lv1)
